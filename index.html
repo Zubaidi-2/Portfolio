@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script/script.js" defer></script>
+    <title>portfolio</title>
+  </head>
+  <body>
+    <div class="welcome-page first-page">
+      <div class="about-me-container">
+        <h1 class="title">Hi! This is Abood's universe.</h1>
+        <p class="about-me">
+          Hello visitor, this is Abood! I basically build things for the web. I
+          always enjoyed sitting behind my computer's screen and decided
+          eventually to learn how it works.
+        </p>
+        <button class="more next">Learn more</button>
+      </div>
+    </div>
+    <main class="hidden">
+      <div class="experience-container">
+        <div class="frontend-container">
+          <div class="icons">
+            <img src="JavaScript-logo.png" class="laptop" />
+          </div>
+          <div class="front-text">
+            <div class="front">Frontend Developer</div>
+            <div class="front-description">
+              We are always looking at designs, everyday of our lives, on our
+              phones, laptops you name it. I'm just the one on the other side of
+              the screen.
+            </div>
+            <div class="languages">
+              Languages I speak: JavaScript, along with HTML and CSS.
+            </div>
+            <a href="#" class="my-work">My work</a>
+          </div>
+        </div>
+        <div class="engineering-container">
+          <div class="icons">
+            <img class="globe" src="electricity.png" />
+          </div>
+          <div class="eng-text">
+            <div class="eng">Energy engineer</div>
+            <div class="eng-description">
+              I studied Renewable energy eningeering in college, trying to
+              implement sustainability, accessibilty and problem solving into my
+              coding journey.
+            </div>
+            <div class="apps">
+              Software I know: MsOffice, SketchUp and PVsyst!
+            </div>
+            <button href="#" class="my-exp">Experience</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="exp-timeline">
+      <div class="exp-containers mg-top">
+        <div class="position">PV systems design and installation</div>
+        <div class="firm">
+          Sam Green Power
+          <span class="date">JAN 2020 - FEB 2020</span>
+        </div>
+        <div class="tasks">
+          Maintained accurate documentation of system designs, installation
+          processes, and test results while adhering to strict safety protocols
+          and collaborating effectively with cross-functional teams.
+        </div>
+      </div>
+      <div class="exp-containers end">
+        <div class="position">PV systems design and installation</div>
+        <div class="firm">
+          Kawkabuna for energy solutions
+          <span class="date">AUG 2022 – JAN 2023</span>
+        </div>
+        <div class="tasks">
+          Assisted in the design and installation of photovoltaic (PV) systems,
+          conducted site assessments, created system layouts, and ensured
+          compliance with codes and regulations.
+        </div>
+      </div>
+      <div class="exp-containers">
+        <div class="position">Customer Service manager</div>
+
+        <div class="firm">
+          Detroit Axle
+          <span class="date">August 2023 – Present</span>
+        </div>
+
+        <div class="tasks mg-bot">
+          Managed end-to-end refund process. • Collaborated with
+          cross-functional teams, including customer service, finance, and
+          sales, to resolve refund-related issues promptly. • Conducted regular
+          audits to identify and prevent potential refund errors or fraud.
+        </div>
+      </div>
+    </div>
+    <div class="contact-me">
+      <div class="contact">More questions? Contact me!</div>
+      <div class="contact-me-container">
+        <form name="contact" class="form" method="POST" netlify>
+          <div class="send">Send me a message here</div>
+          <input name="email" class="email" placeholder="abc@email.com" />
+          <input
+            name="message"
+            class="msg"
+            placeholder="Enter your message here"
+          />
+          <button class="submit" type="submit">Submit!</button>
+        </form>
+        <div class="logo-container">
+          <a
+            href="https://www.linkedin.com/in/abdalla-zubaidi-8960b023a/"
+            target="_blank"
+            ><ion-icon name="logo-linkedin" class="logo-social"></ion-icon
+          ></a>
+          <a href="https://github.com/Zubaidi-2" target="_blank"
+            ><ion-icon name="logo-github" class="logo-social"></ion-icon
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
